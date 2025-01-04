@@ -1,0 +1,45 @@
+@media (max-width: 480px) {
+  header {
+    background-image: url(/mobile/image-header.jpg);
+    background-position: center;
+  }
+  .mpt0 {
+    padding-top: 0px;
+  }
+  header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 0;
+  }
+
+  header svg {
+    top: 50%;
+    height: 20%;
+    width: 20%;
+    left: 40%;
+  }
+  .w50 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  section img {
+    width: 100%;
+  }
+  .fcol {
+    flex-direction: column;
+  }
+  .mw100 {
+    width: 100%;
+  }
+  .mw60 {
+    width: 40%;
+  }
+  .mw70 {
+    width: 70%;
+  }
+  .mw50 {
+    width: 50%;
+  }
+}
